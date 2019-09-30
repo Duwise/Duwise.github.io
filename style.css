@@ -1,0 +1,453 @@
+@font-face {
+  font-family: 'Gotham Pro_reg';
+  src: url('fonts/GothamPro.eot');
+  src: url('fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('fonts/GothamPro.woff2') format('woff2'), url('fonts/GothamPro.woff') format('woff'), url('fonts/GothamPro.ttf') format('truetype'), url('fonts/GothamPro.svg#GothamPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro_light';
+  src: url('fonts/GothamPro-Light.eot');
+  src: url('fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'), url('fonts/GothamPro-Light.woff2') format('woff2'), url('fonts/GothamPro-Light.woff') format('woff'), url('fonts/GothamPro-Light.ttf') format('truetype'), url('fonts/GothamPro-Light.svg#GothamPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Gotham Pro_reg', sans-serif;
+  color: #292929;
+}
+main {
+  padding-top: 3rem;
+}
+a {
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+li a:hover {
+  color: #fff;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  padding: 1.5rem 3rem;
+  background-color: #ffd200;
+  color: #0d0d0d;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  border: none;
+}
+.button:hover {
+  background-color: #ffdb33;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.section-header {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.logo img {
+  float: left;
+  margin-right: 1.4rem;
+}
+.logo-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+.logo-text {
+  font-size: 1.1rem;
+  color: #969696;
+}
+.phone-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #292929;
+  text-transform: uppercase;
+  float: right;
+}
+.phone-text {
+  display: inline-block;
+  float: right;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #969696;
+}
+.header-btn {
+  border: 0.2rem solid #292929;
+  background: none;
+  padding: 0.7rem 2.3rem;
+}
+.header-btn span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+.header-btn:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 0.2rem solid #292929;
+  background: #292929;
+  color: #fff;
+}
+.main-content {
+  margin-top: 6rem;
+  min-height: 55rem;
+  background: #ffffff url(img/lair-bg.png) center center no-repeat;
+  background-size: cover;
+}
+.main-btn {
+  margin-right: 3rem;
+}
+.main-block {
+  padding-top: 17rem;
+  margin-bottom: 6.5rem;
+}
+.main-block h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-block p {
+  margin-top: 4rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+}
+.main-menu {
+  position: absolute;
+  -webkit-transform: translateY(35%);
+          transform: translateY(35%);
+  background-color: #ffcc00;
+  min-width: 97.4%;
+}
+.menu-list {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+.menu-list li {
+  display: inline-block;
+  color: #000000;
+}
+.menu-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2.5rem 6rem;
+  padding-left: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.catalog-ref {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+.catalog-ref span {
+  font-family: "Gotham Pro_light";
+  font-weight: 300;
+  margin-right: 0.7rem;
+}
+.catalog-ref a {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 600;
+}
+.goods {
+  padding-bottom: 8rem;
+  text-align: center;
+}
+.goods-header {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+.goods-block-description {
+  padding: 0 2rem 3.5rem;
+  border: 0.2rem solid #f6f6f6;
+}
+.goods-block-description h3 {
+  margin: 3rem 2rem;
+  color: #292929;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.goods-block-description p {
+  display: inline-block;
+  max-width: 22.5rem;
+  color: #626262;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.goods-block-description button {
+  padding: 1.5rem 5rem;
+}
+.goods-price {
+  display: block;
+  margin: 3rem 0;
+  color: #0f0f0f;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.soil-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 18rem;
+}
+.img-2 {
+  margin-bottom: 1rem;
+}
+.features {
+  padding-bottom: 8rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.features-header {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+.features-block {
+  padding: 4rem 3rem;
+  border: 0.2rem solid #ffffff;
+}
+.features-block:hover {
+  -webkit-box-shadow: 0 0.9rem 2.1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.9rem 2.1rem rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.features-block h3 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.features-block p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.price {
+  padding: 8rem 0;
+  text-align: center;
+}
+.price-header {
+  margin-bottom: 6rem;
+}
+.price-block {
+  padding: 2rem;
+  border: 0.2rem solid #f6f6f6;
+}
+.price-block button {
+  padding: 1.5rem 7rem;
+}
+.price-description {
+  height: 25rem;
+  margin-bottom: 2.5rem;
+}
+.price-description h3 {
+  min-height: 3rem;
+  margin: 2rem 0 2.4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.crossed-price {
+  color: #979797;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.red-price {
+  margin-left: 1.4rem;
+  color: #ff0000;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.reg-price {
+  color: #000000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.action {
+  position: absolute;
+  -webkit-transform: translateX(45%) translateY(35%);
+          transform: translateX(45%) translateY(35%);
+  padding: 0.4rem 0.9rem;
+  background-color: #ff0000;
+}
+.action span {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.services {
+  padding: 8rem 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.services-header {
+  margin-bottom: 6rem;
+}
+.service-block {
+  padding: 4rem 2.5rem;
+  border: 0.2rem solid #ffffff;
+}
+.service-block h3 {
+  margin-top: 3.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.car-block {
+  min-height: 13rem;
+}
+.contacts {
+  padding: 8rem 0;
+  background: #ffffff url(img/map-lair.png) center center no-repeat;
+  background-size: cover;
+}
+.contacts-box {
+  background: #fff;
+  padding: 6rem 4rem 4rem 5rem;
+}
+.contacts-box h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.box-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.box-block a {
+  margin-left: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.box-address {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.box-phones {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+.img-box-1 {
+  margin-top: 0.8rem;
+}
+.img-box-2 {
+  margin-top: 0.3rem;
+}
+.img-box-3 {
+  margin-top: 0.3rem;
+}
+.map-mark {
+  position: absolute;
+  -webkit-transform: translateX(780%) translateY(350%);
+          transform: translateX(780%) translateY(350%);
+}
+.footer {
+  padding: 6rem 4rem 4rem;
+  background-color: #292929;
+}
+.logo-footer img {
+  float: left;
+  margin-right: 1.4rem;
+}
+.logo-footer-name {
+  margin-bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+.logo-footer-text {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 2.09rem;
+}
+.phone-footer-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  float: right;
+}
+.phone-footer-text {
+  display: inline-block;
+  float: right;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #fff;
+}
+.footer-btn {
+  border: 0.2rem solid #fff;
+  background: none;
+  padding: 0.7rem 2.3rem;
+}
+.footer-btn span {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+.footer-btn:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 0.2rem solid #fff;
+  background: #fff;
+}
+.footer-btn:hover span {
+  color: #292929;
+}
+.footer-row {
+  padding-top: 3rem;
+}
+.rel-box span {
+  position: absolute;
+  /* добавили */
+  bottom: 0;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
